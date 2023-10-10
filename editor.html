@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedus Editor </title>
+    <link rel="stylesheet" href="editor.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="left"> Vedu's Editor</h1>
+        <div class="right">
+            <a href="index.html" class="item">Home</a>
+            <a href="index.html " class="item">About Us</a>
+            <a href="index.html" class="item">Services</a>
+            <a href="editor.html" class="item">Editor</a>
+        </div>
+    </div>
+    <div class="hugecontainer">
+
+        <div class="mainn disabled">
+            <p class="mainheading">The Vedu's Editor</p>
+            <hr>
+            <div class="imgcontainer">
+                <img src="img/demoimg.png" alt="">
+                <button>Choose Image</button>
+                <input type="file" name="" id="" class="
+            chooseinput" accept="image/*" hidden>
+            </div>
+            <div class="editorinfo">
+                <div class="editoritem1">
+                    <p class="fname">brightness</p>
+                    <p class="fvalue">100%</p>
+                </div>
+                <div class="inpturange">
+                    <input type="range" class="range" min="0" max="200" class="slider">
+                </div>
+            </div>
+            <div class="filter">
+                <p class="fheding">filter</p>
+                <div class="fimg">
+                    <img title="brightness"  id="brightness" src="img/brightnss.png " class="active" alt="">
+                    <img title="contrast" id="contrast" src="img/contrast.png" alt="">
+                    <img  title="saturate"id="saturate" src="img/opactiy.png" alt="">
+                    <img title="invert" id="invert" src="img/invert.png" alt="">
+                    <img  title="blur"   id="blur" src="img/blur.png" alt="">
+
+                </div>
+            </div>
+
+            <div class="filter">
+                <p class="fheding">Flip and Rotate</p>
+                <div class="fimg rimg">
+                    <img title="flipx" id="flipx" src="img/flip.png" alt="">
+                    <img title="flipy" id="flipy" src="img/flip.png" alt="">
+                    <img title="rotateleft" id="rotateleft" src="img/rotateleft.png" alt="">
+                    <img title="rotateright" id="rotateright" src="img/rotateright.png" alt="">
+                </div>
+            </div>
+
+            <div class="bottombutton">
+                <button class="reset">Reset Image</button>
+                <button class="save">Save Image</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="editor.js"></script>
+</body>
+
+</html>

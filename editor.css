@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* flex-direction: column; */
+    background: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.hugecontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainn {
+    width: 450px;
+    height: fit-content;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.mainheading {
+    font-family: poppins;
+    margin-top: 15px;
+    font-size: 34px;
+    /* border: 2px solid; */
+    font-weight: 600;
+}
+.imgcontainer{
+    display: grid;
+    place-items: center;
+    /* border: 2px solid; */
+}
+.imgcontainer button{
+font-family: poppins;
+padding: 8px 22px;
+border-radius: 8px;
+font-weight: 600;
+font-size:17px ;
+background-color: rgb(255, 98, 0);
+cursor: pointer;
+
+}
+
+.imgcontainer img {
+    width:300px;
+    height: 300px;
+    object-fit: contain;
+    padding: 3px;
+}
+.editorinfo{
+    padding: 0 4px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    /* background-color: bisque; */
+    
+
+}
+.inpturange{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.range{
+    width: 95%;
+}
+.editoritem1{
+    width: 90%;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.editoritem1 p  {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.filter{
+    width: 90%;
+border-radius: 7px;
+    height: auto;
+    /* background-color: red; */
+    margin: 10px 0;
+    padding: 5px 5px;
+    border: 2px solid white;
+}
+.filter p{
+    font-size: 15px;
+    font-family: poppins;
+}
+.fimg{
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fimg img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    /* color: rgb(222, 15, 15); */
+}
+.bottombutton{
+    width: 90%;
+    margin: 8px  0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottombutton button{
+    padding: 6px 22px;
+    font-size: 17px;
+    font-family: poppins;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.save{
+    background-color: blueviolet;
+}
+.active{
+border-radius: 50%;
+padding: 4px;
+border: 2px solid white;
+cursor: pointer;
+}
